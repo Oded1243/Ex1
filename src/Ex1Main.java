@@ -45,8 +45,8 @@ public class Ex1Main {
                         int y = Ex1.number2Int(num2);
                         String z = Ex1.int2Number(x + y, base);
                         String w = Ex1.int2Number(x * y, base);
-                        System.out.println(num1 + " + " + num2 + " = " + z + "b" + base);
-                        System.out.println(num1 + " * " + num2 + " = " + w + "b" + base);
+                        System.out.println(x + " + " + y + " = " + z + "b" + base);
+                        System.out.println(x + " * " + y + " = " + w + "b" + base);
 
                         String[] numbers = {num1, num2, z, w};
                         int index = Ex1.maxIndex(numbers);
